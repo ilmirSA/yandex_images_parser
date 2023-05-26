@@ -2,8 +2,9 @@
 
 1. Клонируйте репозиторий:
 
-   `````
+   ```
    git clone https://github.com/ilmirSA/yandex_images_parser.git
+
    ```
 
 2. Перейдите в папку с проектом:
