@@ -80,8 +80,8 @@ async def main():
                     break
             except aiohttp.ClientResponseError as exc:
                 if exc.status == 400:
-                    print(f'{name} got a 400 Bad Request error, waiting for 30 minutes...')
-                    await asyncio.sleep(300)  # 30 minutes
+                    print(f'{name} got a 400 Bad Request error, waiting for 5 minutes...')
+                    await asyncio.sleep(300)  # 5 minutes
             except Exception as exc:
                 print(f'{name} generated an exception: {exc}')
         else:
